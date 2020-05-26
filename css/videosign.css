@@ -90,7 +90,7 @@ iframe {
 
 .items {
   padding-left: 5%;
-  margin-top: 13px;
+  margin-top: 6%;
 }
 
 .left-links {
@@ -126,6 +126,8 @@ iframe {
 
 .tosign {
   content: url(../assets/sbxicons/icons-edit.svg);
+  margin-left: 2px;
+  margin-right: -2px;
 }
 
 .toread {
@@ -142,6 +144,9 @@ iframe {
 
 .chat {
   content: url(../assets/sbxicons/icons-chat.svg);
+  width: 20px;
+  margin-right: calc(21px - 20px);
+  margin-left: 3px;
 }
 
 .startrec {
@@ -150,6 +155,9 @@ iframe {
 
 .refresh {
   content: url(../assets/sbxicons/icons-refresh.svg);
+  width: 16px;
+  margin-right: calc(21px - 16px);
+  margin-left: 3px;
 }
 
 .healthcheck {
@@ -164,11 +172,14 @@ iframe {
 
 .logout {
   content: url(../assets/sbxicons/icons-exit.svg);
+  width: 18px;
+  margin-right: calc(21px - 18px);
+  margin-left: 3px;
 }
 
-.tools {
+/* .tools {
   min-height: calc(1vh * 45);
-}
+} */
 
 @media (max-height: 830px) {
   .tools {
@@ -223,7 +234,7 @@ iframe {
   border-radius: 2px;
   background-color: black;
   margin-top: 8px;
-  padding-top: 3%;
+  padding-top: 3.5%;
   text-align: center;
   cursor: pointer;
   border-radius: 3px;
@@ -638,4 +649,9 @@ iframe {
   .mobile-warning-message {
     display:block;
   }
+}
+
+.divider-panel {
+  min-height: calc(1vh*1.04);
+  margin-bottom: 5%;
 }
